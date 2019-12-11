@@ -2,8 +2,6 @@ import React from 'react'
 import TodoItem from './TodoItem'
 import todosData from './todosData'
 
-
-
 class App extends React.Component {
   constructor() {
     super()
@@ -22,8 +20,7 @@ class App extends React.Component {
       })
       return {
         todo: newToDos
-      }
-      
+      }      
     })
   }
 
@@ -39,8 +36,5 @@ class App extends React.Component {
     )
   }
 }
-
-
-
 
 export default App
